@@ -1,0 +1,38 @@
+C:\WINDOWS\system32>keytool -list -v -keystore D:\WORK_TANVIR\epharma\src\Keystore\epharma.keystore
+Enter keystore password:
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: my-key-alias
+Creation date: May 13, 2021
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Tanvir Azad, OU=None, O=NOne, L=None, ST=None, C=UK
+Issuer: CN=Tanvir Azad, OU=None, O=NOne, L=None, ST=None, C=UK
+Serial number: 45322853
+Valid from: Thu May 13 07:06:57 BDT 2021 until: Mon Sep 28 07:06:57 BDT 2048
+Certificate fingerprints:
+         MD5:  93:F3:07:ED:9D:A9:88:CB:9E:28:6A:B1:52:7A:52:C6
+         SHA1: 4E:F9:C8:1A:51:34:23:45:2D:72:00:49:6C:37:D9:37:29:FF:2A:EA
+         SHA256: CD:B2:90:28:A4:CB:8A:86:56:1C:96:12:33:F5:2E:BE:17:FC:2B:EB:DA:6E:19:38:78:E0:BA:A7:E9:E8:28:2E
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 57 6C 3A 05 F3 78 24 7F   8C 4A 00 11 A5 CC 5C 06  Wl:..x$..J....\.
+0010: 6A C4 72 3C                                        j.r<
+]
+]
+
+
+
+*******************************************
+*******************************************
